@@ -3,7 +3,7 @@ import Router from "next/router";
 
 class LoginForm extends React.Component {
   state = {
-    email: "Rey.Padberg@karina.biz",
+    email: "Rey.Padberg@karina.biz", //from jsonplaceholder api
     password: "ambrose.net",
     error: "",
     isLoading: false
